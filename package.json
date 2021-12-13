@@ -1,5 +1,5 @@
 {
-  "name": "fabric-history-props",
+  "name": "fabric-history",
   "version": "1.6.0",
   "description": "Undo and redo implementations on fabric.js",
   "main": "src/index.min.js",
