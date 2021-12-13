@@ -46,7 +46,7 @@ fabric.Canvas.prototype._historyEvents = function () {
 fabric.Canvas.prototype._historyInit = function () {
   this.historyUndo = [];
   this.historyRedo = [];
-  this.extraProps = ['selectable', 'lockMovementX', 'lockMovementY', 'editable', 'lockScalingX', 'lockScalingY'];
+  this.extraProps = ['selectable', 'lockMovementX', 'lockMovementY', 'editable', 'lockScalingX', 'lockScalingY', 'replaceable', 'selectableResourcesFolders', 'selectableResources', 'originalWidth', 'originalHeight'];
   this.historyNextState = this._historyNext();
 
   this.on(this._historyEvents());
